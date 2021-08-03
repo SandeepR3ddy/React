@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+//libaries
+import React from 'react';  // creation logic
+import ReactDOM from 'react-dom'; // render logic to show on ui
+
+
+//app is a component we have imported
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <App />,   //ek component
+  document.getElementById('root') // ek jagah jha us component ko dikhana hai
 );
 
 // If you want to start measuring performance in your app, pass a function
